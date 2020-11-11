@@ -8,5 +8,5 @@ object BasicAlgebraicOperationsSpec extends Properties("Basic algebraic operatio
   property("add") = forAll { (a: Int, b: Int) =>
     BasicAlgebraicOperations.add(a, b) == a + b
   }
-  
+
 }
