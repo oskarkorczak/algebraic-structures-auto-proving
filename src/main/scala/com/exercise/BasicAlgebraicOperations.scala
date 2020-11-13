@@ -2,7 +2,7 @@ package com.exercise
 
 object BasicAlgebraicOperations {
 
-  def add(a: Int, b: Int): Int = {
+  def add(a: BigInt, b: BigInt): BigInt = {
     a + b
   }
 }
