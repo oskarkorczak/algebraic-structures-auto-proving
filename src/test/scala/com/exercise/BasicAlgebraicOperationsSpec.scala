@@ -9,4 +9,8 @@ object BasicAlgebraicOperationsSpec extends Properties("Basic algebraic operatio
   property("add generates correct result") = forAll { (a: Int, b: Int) =>
     add(a, b) == a + b
   }
+
+  property("add is associative") = forAll { (a: Int, b: Int, c: Int) =>
+    add(add(a, b), c) == add(a, add(b, c))
+  }
 }
