@@ -14,11 +14,11 @@ ThisBuild / scalacOptions ++= Seq(
   "-Ymacro-annotations"
 )
 
-lazy val `property-based-testing-exercises` =
+lazy val `algebraic-structures-auto-proving` =
   project
     .in(file("."))
     .settings(
-      name := "property-based-testing-exercises",
+      name := "algebraic-structures-auto-proving",
       libraryDependencies ++= Seq(
         // main dependencies
       ),

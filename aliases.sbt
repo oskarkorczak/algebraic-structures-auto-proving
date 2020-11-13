@@ -1,7 +1,7 @@
 import Util._
 
 addCommandAlias("cd", "project")
-addCommandAlias("root", "cd property-based-testing-exercises")
+addCommandAlias("root", "cd algebraic-structures-auto-proving")
 addCommandAlias("c", "compile")
 addCommandAlias("ca", "test:compile")
 addCommandAlias("t", "test")
@@ -17,7 +17,7 @@ onLoadMessage +=
       |  List of defined ${styled("aliases")}
       |────────┬──────────────────
       |${styled("cd")}      │ project
-      |${styled("root")}    │ cd property-based-testing-exercises
+      |${styled("root")}    │ cd algebraic-structures-auto-proving
       |${styled("c")}       │ compile
       |${styled("ca")}      │ compile all
       |${styled("t")}       │ test
