@@ -24,4 +24,7 @@ object BasicAlgebraicOperationsSpec extends Properties("Basic algebraic operatio
     add(a, -a) == addNeutralElem && add(-a, a) == addNeutralElem
   }
 
+  property("add is commutative") = forAll { (a: Int, b: Int) =>
+    add(a, b) == add(b, a)
+  }
 }
