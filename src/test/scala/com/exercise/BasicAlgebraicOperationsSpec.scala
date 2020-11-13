@@ -6,6 +6,8 @@ import org.scalacheck.Properties
 
 object BasicAlgebraicOperationsSpec extends Properties("Basic algebraic operations") {
 
+  val addNeutralElem = 0
+
   property("add generates correct result") = forAll { (a: Int, b: Int) =>
     add(a, b) == a + b
   }
@@ -15,7 +17,11 @@ object BasicAlgebraicOperationsSpec extends Properties("Basic algebraic operatio
   }
 
   property("add has neutral (aka identity) element") = forAll { (a: Int) =>
-    val neutralElem = 0
-    add(a, neutralElem) == a && add(neutralElem, a) == a
+    add(a, addNeutralElem) == a && add(addNeutralElem, a) == a
   }
+
+  property("add has inverse element") = forAll { (a: Int) =>
+    add(a, -a) == addNeutralElem && add(-a, a) == addNeutralElem
+  }
+
 }
