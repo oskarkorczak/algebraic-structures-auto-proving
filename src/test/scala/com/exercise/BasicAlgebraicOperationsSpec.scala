@@ -13,4 +13,9 @@ object BasicAlgebraicOperationsSpec extends Properties("Basic algebraic operatio
   property("add is associative") = forAll { (a: Int, b: Int, c: Int) =>
     add(add(a, b), c) == add(a, add(b, c))
   }
+
+  property("add has neutral (aka identity) element") = forAll { (a: Int) =>
+    val neutralElem = 0
+    add(a, neutralElem) == a && add(neutralElem, a) == a
+  }
 }
