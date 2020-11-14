@@ -33,7 +33,7 @@ object IntegerAndSubtractionSpec extends Properties("Integer and subtraction") {
     sub(neutralElem, a) != sub(a, neutralElem)
   }
 
-  property("has inverse element") = forAll { a: BigInt =>
+  property("has inve  rse element") = forAll { a: BigInt =>
     sub(a, a) == neutralElem
   }
 

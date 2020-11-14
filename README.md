@@ -40,6 +40,16 @@ Quasigroup consists of a set equipped with a single binary operation that must b
 * (integer, −)
 
 
+### [Semigroup][semigroup]
+A semigroup is a set S together with a binary operation &sdot; that is total and satisfies the associative property.
+
+More succinctly, a semigroup is an associative magma.
+
+###### Examples
+
+* (integer, min)
+
+
 
 ### [Grupoid (aka Magma)][magma]
 Grupoid/Magma consists of a set equipped with a single binary operation that must be closed (total binary operator) by definition. No other properties are imposed. 
@@ -74,6 +84,7 @@ To qualify as an Abelian Group, the set and operation, (A, &sdot;), must satisfy
 
 [abelian-group]: https://en.wikipedia.org/wiki/Abelian_group
 [magma]: https://en.wikipedia.org/wiki/Magma_(algebra)
+[semigroup]: https://en.wikipedia.org/wiki/Semigroup
 [quasigroup]: https://en.wikipedia.org/wiki/Quasigroup
 [magma-ethymology]: https://english.stackexchange.com/questions/63210/etymology-of-magma-in-abstract-algebra
 [magma-mathoverflow-term-origin]: https://mathoverflow.net/questions/103128/what-is-the-origin-of-the-term-magma
