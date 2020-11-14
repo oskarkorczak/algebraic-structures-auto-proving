@@ -32,5 +32,18 @@ object RoShamBoGameSpec extends Properties("Rock Paper Scissors") {
 
     res == false
   }
-  
+
+  property("has no invertibility (counterexample)") = forAll(rps) { invertedElem: RoShamBo =>
+    val leftInvertedForRock = throwIter(invertedElem, Rock)
+    val rightInvertedForRock = throwIter(Rock, invertedElem)
+
+    val leftInvertedForPaper = throwIter(invertedElem, Paper)
+    val rightInvertedForPaper = throwIter(Paper, invertedElem)
+
+    val leftInvertedForScissors = throwIter(invertedElem, Scissors)
+    val rightInvertedForScissors = throwIter(Scissors, invertedElem)
+
+    Set(leftInvertedForRock, rightInvertedForRock, leftInvertedForPaper, rightInvertedForPaper,
+      leftInvertedForScissors, rightInvertedForScissors).size > 1
+  }
 }
