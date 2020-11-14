@@ -30,7 +30,7 @@ For all ***a***, ***b*** in ***A***, ***a &sdot; b = b &sdot; a***.
 
 
 ## Algebraic Structures
-Most prominent algebraic structures are listed below and have their proofs in the code. 
+Most prominent algebraic structures are listed below and have their proofs in the code, as per examples in each section. 
 
 
 ### [Grupoid (aka Magma)][magma]
