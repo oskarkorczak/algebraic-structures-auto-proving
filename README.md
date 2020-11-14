@@ -33,6 +33,18 @@ For all ***a***, ***b*** in ***A***, ***a &sdot; b = b &sdot; a***.
 Most prominent algebraic structures are listed below and have their proofs in the code, as per examples in each section. 
 
 
+### [Grupoid (aka Magma)][magma]
+Grupoid/Magma consists of a set equipped with a single binary operation that must be closed (total binary operator) by definition. No other properties are imposed. 
+
+Incidentally, naming convention is fairly inconsistent especially in this case. You may read about Magma origin [here][magma-mathoverflow-term-origin] and [here][magma-ethymology]. Also, it is interesting how French preserved [various magma term meanings][magma-fr-dict], which did not happen in many other languages. 
+
+
+###### Examples
+
+* (RoShamBo, throw) aka (RockPaperScissors, throw)
+
+
+
 ### [Quasigroup][quasigroup]
 Quasigroup consists of a set equipped with a single binary operation that must be close and operation is invertible. 
 
@@ -53,16 +65,12 @@ More succinctly, a semigroup is an associative magma.
 * (integer, last)
 
 
-
-### [Grupoid (aka Magma)][magma]
-Grupoid/Magma consists of a set equipped with a single binary operation that must be closed (total binary operator) by definition. No other properties are imposed. 
-
-Incidentally, naming convention is fairly inconsistent especially in this case. You may read about Magma origin [here][magma-mathoverflow-term-origin] and [here][magma-ethymology]. Also, it is interesting how French preserved [various magma term meanings][magma-fr-dict], which did not happen in many other languages. 
-
+### [Monoid][monoid]
+In abstract algebra, a branch of mathematics, a monoid is a set equipped with an associative binary operation and an identity element.
 
 ###### Examples
 
-* (RoShamBo, throw) aka (RockPaperScissors, throw)
+* (sequence, concat)
 
 
 
@@ -88,6 +96,7 @@ To qualify as an Abelian Group, the set and operation, (A, &sdot;), must satisfy
 [abelian-group]: https://en.wikipedia.org/wiki/Abelian_group
 [magma]: https://en.wikipedia.org/wiki/Magma_(algebra)
 [semigroup]: https://en.wikipedia.org/wiki/Semigroup
+[monoid]: https://en.wikipedia.org/wiki/Monoid
 [quasigroup]: https://en.wikipedia.org/wiki/Quasigroup
 [magma-ethymology]: https://english.stackexchange.com/questions/63210/etymology-of-magma-in-abstract-algebra
 [magma-mathoverflow-term-origin]: https://mathoverflow.net/questions/103128/what-is-the-origin-of-the-term-magma
