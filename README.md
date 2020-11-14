@@ -11,7 +11,7 @@ In order to see whether a particular pair (set, operation) belongs to any algebr
 Below are the most useful axioms. 
 
 
-### Totality (equivalent to Closure)
+### Totality (equivalent to Closed)
 For all ***a***, ***b*** in ***A***, the result of the operation ***a &sdot; b*** is also in ***A***.
 
 
@@ -32,17 +32,25 @@ For all ***a***, ***b*** in ***A***, ***a &sdot; b = b &sdot; a***.
 ## Algebraic Structures
 Below structures can be found in the code. 
 
+
+### Grupoid (aka Magma)
+Grupoid/[Magma][magma-ethymology] consists of a set equipped with a single binary operation that must be closed (total binary operator) by definition. No other properties are imposed. 
+
+Incidentally, naming convention is fairly inconsistent especially in this case. You may read about [Magma origin][magma-mathoverflow-term-origin]. Also, it is interesting how French preserved [various magma term meanings][magma-mathoverflow-term-origin], which did not happen in many other languages. 
+
+
+###### Examples
+
+* (RoShamBo, throw) aka (RockPaperScissors, throw)
+
 ### [Abelian Group][abelian-group]
 To qualify as an Abelian Group, the set and operation, (A, &sdot;), must satisfy five requirements known as the Abelian group axioms i.e. closure, associativity, identity element, inverse element, commutativity. 
 
-Examples:
+###### Examples
 
 * (Integer, +)
 * (Integer, &sdot;)
 
-
-
- 
 
 
 [abstract-algebra]: https://en.wikipedia.org/wiki/Abstract_algebra
@@ -50,3 +58,6 @@ Examples:
 [scalacheck]: http://www.scalacheck.org/
 
 [abelian-group]: https://en.wikipedia.org/wiki/Abelian_group
+[magma-ethymology]: https://english.stackexchange.com/questions/63210/etymology-of-magma-in-abstract-algebra
+[magma-mathoverflow-term-origin]: https://mathoverflow.net/questions/103128/what-is-the-origin-of-the-term-magma
+[magma-fr-dict]: https://www.larousse.fr/dictionnaires/francais/magma/48543
