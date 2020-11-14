@@ -48,6 +48,7 @@ More succinctly, a semigroup is an associative magma.
 ###### Examples
 
 * (integer, min)
+* (integer, max)
 
 
 
