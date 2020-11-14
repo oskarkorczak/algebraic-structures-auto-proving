@@ -33,6 +33,14 @@ For all ***a***, ***b*** in ***A***, ***a &sdot; b = b &sdot; a***.
 Most prominent algebraic structures are listed below and have their proofs in the code, as per examples in each section. 
 
 
+### [Quasigroup][quasigroup]
+Quasigroup consists of a set equipped with a single binary operation that must be close and operation is invertible. 
+
+###### Examples
+* (integer, −)
+
+
+
 ### [Grupoid (aka Magma)][magma]
 Grupoid/Magma consists of a set equipped with a single binary operation that must be closed (total binary operator) by definition. No other properties are imposed. 
 
@@ -43,13 +51,20 @@ Incidentally, naming convention is fairly inconsistent especially in this case. 
 
 * (RoShamBo, throw) aka (RockPaperScissors, throw)
 
+
+
 ### [Abelian Group][abelian-group]
 To qualify as an Abelian Group, the set and operation, (A, &sdot;), must satisfy five requirements known as the Abelian group axioms i.e. closure, associativity, identity element, inverse element, commutativity. 
 
 ###### Examples
 
-* (Integer, +)
-* (Integer, &sdot;)
+* (integer, +)
+* (integer, &sdot;)
+
+
+
+
+
 
 
 
@@ -59,6 +74,7 @@ To qualify as an Abelian Group, the set and operation, (A, &sdot;), must satisfy
 
 [abelian-group]: https://en.wikipedia.org/wiki/Abelian_group
 [magma]: https://en.wikipedia.org/wiki/Magma_(algebra)
+[quasigroup]: https://en.wikipedia.org/wiki/Quasigroup
 [magma-ethymology]: https://english.stackexchange.com/questions/63210/etymology-of-magma-in-abstract-algebra
 [magma-mathoverflow-term-origin]: https://mathoverflow.net/questions/103128/what-is-the-origin-of-the-term-magma
 [magma-fr-dict]: https://www.larousse.fr/dictionnaires/francais/magma/48543
