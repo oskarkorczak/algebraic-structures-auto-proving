@@ -34,9 +34,9 @@ Below structures can be found in the code.
 
 
 ### [Grupoid (aka Magma)][magma]
-Grupoid/[Magma][magma-ethymology] consists of a set equipped with a single binary operation that must be closed (total binary operator) by definition. No other properties are imposed. 
+Grupoid/Magma consists of a set equipped with a single binary operation that must be closed (total binary operator) by definition. No other properties are imposed. 
 
-Incidentally, naming convention is fairly inconsistent especially in this case. You may read about [Magma origin][magma-mathoverflow-term-origin]. Also, it is interesting how French preserved [various magma term meanings][magma-mathoverflow-term-origin], which did not happen in many other languages. 
+Incidentally, naming convention is fairly inconsistent especially in this case. You may read about Magma origin [here][magma-mathoverflow-term-origin] and [here][magma-ethymology]. Also, it is interesting how French preserved [various magma term meanings][magma-mathoverflow-term-origin], which did not happen in many other languages. 
 
 
 ###### Examples
