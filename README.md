@@ -30,7 +30,7 @@ For all ***a***, ***b*** in ***A***, ***a &sdot; b = b &sdot; a***.
 
 
 ## Algebraic Structures
-Below structures can be found in the code. 
+Most prominent algebraic structures are listed below and have their proofs in the code. 
 
 
 ### [Grupoid (aka Magma)][magma]
