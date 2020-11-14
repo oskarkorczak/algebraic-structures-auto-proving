@@ -46,4 +46,8 @@ object RoShamBoGameSpec extends Properties("Rock Paper Scissors") {
     Set(leftInvertedForRock, rightInvertedForRock, leftInvertedForPaper, rightInvertedForPaper,
       leftInvertedForScissors, rightInvertedForScissors).size > 1
   }
+
+  property("is commutative") = forAll(rps, rps) { (a: RoShamBo, b: RoShamBo) =>
+    throwIter(a, b) == throwIter(b, a)
+  }
 }
