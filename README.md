@@ -58,6 +58,7 @@ To qualify as an Abelian Group, the set and operation, (A, &sdot;), must satisfy
 [scalacheck]: http://www.scalacheck.org/
 
 [abelian-group]: https://en.wikipedia.org/wiki/Abelian_group
+[magma]: https://en.wikipedia.org/wiki/Magma_(algebra)
 [magma-ethymology]: https://english.stackexchange.com/questions/63210/etymology-of-magma-in-abstract-algebra
 [magma-mathoverflow-term-origin]: https://mathoverflow.net/questions/103128/what-is-the-origin-of-the-term-magma
 [magma-fr-dict]: https://www.larousse.fr/dictionnaires/francais/magma/48543
