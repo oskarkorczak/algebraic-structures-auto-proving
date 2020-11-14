@@ -41,7 +41,7 @@ Quasigroup consists of a set equipped with a single binary operation that must b
 
 
 ### [Semigroup][semigroup]
-A semigroup is a set S together with a binary operation &sdot; that is total and satisfies the associative property.
+A semigroup is a set together with a binary operation that is total and satisfies the associative property.
 
 More succinctly, a semigroup is an associative magma.
 
