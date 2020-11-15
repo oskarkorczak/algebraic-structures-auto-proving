@@ -71,6 +71,7 @@ In abstract algebra, a branch of mathematics, a monoid is a set equipped with an
 ###### Examples
 
 * (sequence, concat)
+* (integer, &sdot;) - commutative monoid
 
 
 
@@ -80,7 +81,6 @@ To qualify as an Abelian Group, the set and operation, (A, &sdot;), must satisfy
 ###### Examples
 
 * (integer, +)
-* (integer, &sdot;)
 
 
 
