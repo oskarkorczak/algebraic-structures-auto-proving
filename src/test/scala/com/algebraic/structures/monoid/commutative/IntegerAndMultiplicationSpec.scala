@@ -4,15 +4,12 @@ import com.algebraic.structures.monoid.commutative.IntegerAndMultiplication.mul
 import org.scalacheck.Prop.forAll
 import org.scalacheck.{ Gen, Properties }
 
-object IntegerAndMultiplicationSpec
-    extends Properties("Integer and multiplication") {
+object IntegerAndMultiplicationSpec extends Properties("Integer and multiplication") {
 
   private val neutralElem = BigInt(1)
 
-  private val posBigInt =
-    Gen.choose(0, Long.MaxValue).map { n: Long => BigInt(n) }
-  private val negBigInt =
-    Gen.choose(Long.MinValue, 0).map { n: Long => BigInt(n) }
+  private val posBigInt = Gen.choose(0, Long.MaxValue).map { n: Long => BigInt(n) }
+  private val negBigInt = Gen.choose(Long.MinValue, 0).map { n: Long => BigInt(n) }
 
   property("is total for opposite arguments") = forAll(posBigInt, negBigInt) {
     (a: BigInt, b: BigInt) =>
