@@ -11,7 +11,7 @@ In order to see whether a particular pair (set, operation) belongs to any algebr
 Below are the most useful axioms. 
 
 
-### Totality (equivalent to Closed)
+### Totality (equivalent to Closure)
 For all ***a***, ***b*** in ***A***, the result of the operation ***a &sdot; b*** is also in ***A***.
 
 
@@ -121,3 +121,4 @@ A ring is a set ***R*** equipped with two binary operations ***+*** and ***&sdot
 [magma-ethymology]: https://english.stackexchange.com/questions/63210/etymology-of-magma-in-abstract-algebra
 [magma-mathoverflow-term-origin]: https://mathoverflow.net/questions/103128/what-is-the-origin-of-the-term-magma
 [magma-fr-dict]: https://www.larousse.fr/dictionnaires/francais/magma/48543
+
